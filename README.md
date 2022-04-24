@@ -7,4 +7,11 @@ Desenvolvi uma app com Registros de Dados IBGE sobre mortes violentas ocorrido n
 
 Neste projeto estou usando as bibliotecas Streamlit - Dash Plotly - Folium ambas Python('Fenomenais')
 
+segue link de acesso App https://share.streamlit.io/ednei-code/streamlit---machine-learning/main/App.py
+
+Criticas construtivas sempre serão aceitas
+
+Se quiser me contratar estou a dispor!!! ednei.adgpo@gmail.com
+
+agradeço toda comunidade #streamlit sempre disposta a help!!! e toda comunidade #python
 
