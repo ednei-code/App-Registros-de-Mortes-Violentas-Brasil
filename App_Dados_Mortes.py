@@ -15,7 +15,7 @@ import requests
 st.title("Ednei Cunha Vicente - Cientista de Dados")
 st.title("Web App com Dados do IBGE sobre Mortes Violentas que ocorreram no Brasil em 2019 - 2020 ")
 st.write("**Mad By:[Ednei Cunha Vicente](https://www.linkedin.com/in/ednei-cunha-vicente-551b64187/")
-st.write("**Mad By:[Ednei Cunha Vicente](https://github.com/ednei-code")
+st.write("**Mad By:[Ednei Cunha Vicente](https://github.com/ednei-code/App-Registros-de-Mortes-Violentas-Brasil")
 
 #=============================================================================================
 #carrega os dados
@@ -689,5 +689,5 @@ fig_0000 = go.Figure(data=[go.Scatter(
 fig_0000.update_layout(title_text="Considera o Numero de Mortes por 100 Mil Habitantes", xaxis_tickangle=-45)
 st.plotly_chart(fig_0000)
 #=====================================================================================================================
-st.subheader("Ceará e Bahia tem maiores taxas de mortes voilentas no país acima de 40 mortes por 100 mil habitantes.")
+st.subheader("Ceará e Bahia tem maiores taxas de mortes violentas no país acima de 40 mortes por 100 mil habitantes.")
 st.subheader("Entre os menos violentos, Santa Catarina se destaca junto com São Paulo - os unicos a registrar uma taxa abaixo de 12 mortes por 100 mil habitantes.")
