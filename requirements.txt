@@ -1,9 +1,9 @@
-streamlit == 1.11.1 
+streamlit 
 streamlit_folium
-requests == 2.26.0
-folium == 0.12.1
-plotly == 4.14.3
-pandas == 1.2.2
+requests 
+folium 
+plotly 
+pandas 
 numpy
 jinja2
 branca
