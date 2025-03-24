@@ -31,7 +31,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-9, -36, 1]])
 ).tolist()
 
-Al = folium.Map([-9.513973,-36.624728],tiles="OpenStreetMap",zoom_start=5) #stamentoner
+Al = folium.Map([-9.513973,-36.624728],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner
 HeatMap(data).add_to(Al)
 radius = 20
 folium.CircleMarker(
@@ -51,7 +51,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-5, -39, 1]])
 ).tolist()
 
-Ce = folium.Map([-5.093338, -39.615608],tiles="OpenStreetMap",zoom_start=5) #stamentoner
+Ce = folium.Map([-5.093338, -39.615608],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner
 HeatMap(data).add_to(Ce)
 radius = 20
 folium.CircleMarker(
@@ -71,7 +71,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-15, -47, 1]])
 ).tolist()
 
-distrito = folium.Map([-15.7807,-47.7973],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+distrito = folium.Map([-15.7807,-47.7973],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(distrito)
 radius = 20
 folium.CircleMarker(
@@ -91,7 +91,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-19, -40, 1]])
 ).tolist()
 
-ES = folium.Map([-19.5751, -40.6708],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+ES = folium.Map([-19.5751, -40.6708],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(ES)
 radius = 20
 folium.CircleMarker(
@@ -112,7 +112,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-16, -49, 1]])
 ).tolist()
 
-Go = folium.Map([-16.042109	,-49.623608],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+Go = folium.Map([-16.042109	,-49.623608],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(Go)
 radius = 20
 folium.CircleMarker(
@@ -132,7 +132,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-5, -45, 1]])
 ).tolist()
 
-Ma = folium.Map([-5.060433, -45.279153],tiles="OpenStreetMap",zoom_start=5) #stamentoner #OpenStreetMap
+Ma = folium.Map([-5.060433, -45.279153],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(Ma)
 radius = 20
 folium.CircleMarker(
@@ -152,7 +152,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-12, -55, 1]])
 ).tolist()
 
-Mt = folium.Map([-12.948919, -55.911975],tiles="OpenStreetMap",zoom_start=5) #stamentoner #OpenStreetMap
+Mt = folium.Map([-12.948919, -55.911975],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(Mt)
 radius = 20
 folium.CircleMarker(
@@ -172,7 +172,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-3, -53, 1]])
 ).tolist()
 
-pr = folium.Map([-3.974815, -53.064197],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+pr = folium.Map([-3.974815, -53.064197],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(pr)
 radius = 20
 folium.CircleMarker(
@@ -192,7 +192,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-7, -36, 1]])
 ).tolist()
 
-prb = folium.Map([-7.120898,-36.832085],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+prb = folium.Map([-7.120898,-36.832085],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(prb)
 radius = 20
 folium.CircleMarker(
@@ -212,7 +212,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-24, -51, 1]])
 ).tolist()
 
-prn = folium.Map([-24.635840, -51.616400],tiles="OpenStreetMap",zoom_start=5) #stamentoner #OpenStreetMap
+prn = folium.Map([-24.635840, -51.616400],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(prn)
 radius = 20
 folium.CircleMarker(
@@ -232,7 +232,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-8, -37, 1]])
 ).tolist()
 
-per = folium.Map([-8.326050, -37.998299],tiles="OpenStreetMap",zoom_start=5) #stamentoner #OpenStreetMap
+per = folium.Map([-8.326050, -37.998299],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(per)
 radius = 20
 folium.CircleMarker(
@@ -252,7 +252,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-7, -42, 1]])
 ).tolist()
 
-pi = folium.Map([-7.387435, -42.968494],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+pi = folium.Map([-7.387435, -42.968494],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(pi)
 radius = 20
 folium.CircleMarker(
@@ -272,7 +272,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-27, -50, 1]])
 ).tolist()
 
-sc = folium.Map([-27.247330, -50.474101],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+sc = folium.Map([-27.247330, -50.474101],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(sc)
 radius = 20
 folium.CircleMarker(
@@ -292,7 +292,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-10, -37, 1]])
 ).tolist()
 
-sg = folium.Map([-10.584717,-37.443872],tiles="OpenStreetMap",zoom_start=5) #stamentoner #OpenStreetMap
+sg = folium.Map([-10.584717,-37.443872],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(sg)
 radius = 20
 folium.CircleMarker(
@@ -312,7 +312,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-12, -41, 1]])
 ).tolist()
 
-ba = folium.Map([-12.475101,-41.720804],tiles="OpenStreetMap",zoom_start=5) #stamentoner #OpenStreetMap
+ba = folium.Map([-12.475101,-41.720804],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(ba)
 radius = 20
 folium.CircleMarker(
@@ -332,7 +332,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-20, -54, 1]])
 ).tolist()
 
-mts = folium.Map([-20.327475, -54.8455644],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+mts = folium.Map([-20.327475, -54.8455644],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(mts)
 radius = 20
 folium.CircleMarker(
@@ -352,7 +352,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-18, -44, 1]])
 ).tolist()
 
-mg = folium.Map([-18.456155, -44.673385],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+mg = folium.Map([-18.456155, -44.673385],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(mg)
 radius = 20
 folium.CircleMarker(
@@ -372,7 +372,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-22, -42, 1]])
 ).tolist()
 
-rj = folium.Map([-22.188569,-42.651667],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+rj = folium.Map([-22.188569,-42.651667],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(rj)
 radius = 20
 folium.CircleMarker(
@@ -392,7 +392,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-5, -36, 1]])
 ).tolist()
 
-rgn = folium.Map([-5.839525,-36.673283],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+rgn = folium.Map([-5.839525,-36.673283],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(rgn)
 radius = 20
 folium.CircleMarker(
@@ -412,7 +412,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-29, -53, 1]])
 ).tolist()
 
-rgs = folium.Map([-29.705809, -53.319974],tiles="OpenStreetMap",zoom_start=5) #stamentoner #OpenStreetMap
+rgs = folium.Map([-29.705809, -53.319974],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(rgs)
 radius = 20
 folium.CircleMarker(
@@ -432,7 +432,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-22, -48, 1]])
 ).tolist()
 
-sp = folium.Map([-22.263541, -48.733659],tiles="OpenStreetMap",zoom_start=5) #stamentoner #OpenStreetMap
+sp = folium.Map([-22.263541, -48.733659],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(sp)
 radius = 20
 folium.CircleMarker(
@@ -452,7 +452,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-10, -48, 1]])
 ).tolist()
 
-tc = folium.Map([-10.150000, -48.329160],tiles="OpenStreetMap",zoom_start=5) #stamentoner #OpenStreetMap
+tc = folium.Map([-10.150000, -48.329160],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(tc)
 radius = 20
 folium.CircleMarker(
@@ -472,7 +472,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-9, -70, 1]])
 ).tolist()
 
-ac = folium.Map([-9.212917, -70.473083],tiles="OpenStreetMap",zoom_start=5) #stamentoner #OpenStreetMap
+ac = folium.Map([-9.212917, -70.473083],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(ac)
 radius = 20
 folium.CircleMarker(
@@ -492,7 +492,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[1, -51, 1]])
 ).tolist()
 
-am = folium.Map([1.443317, -51.956013],tiles="OpenStreetMap",zoom_start=5) #stamentoner #OpenStreetMap
+am = folium.Map([1.443317, -51.956013],tiles="OpenStreetMap",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(am)
 radius = 20
 folium.CircleMarker(
@@ -512,7 +512,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-4, -64, 1]])
 ).tolist()
 
-amz = folium.Map([-4.154223, -64.653187],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+amz = folium.Map([-4.154223, -64.653187],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(amz)
 radius = 20
 folium.CircleMarker(
@@ -532,7 +532,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[-10, -62, 1]])
 ).tolist()
 
-rn = folium.Map([-10.913325, -62.841698],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+rn = folium.Map([-10.913325, -62.841698],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(rn)
 radius = 20
 folium.CircleMarker(
@@ -552,7 +552,7 @@ data = (
     np.random.normal(size=(100, 3)) * np.array([[1, 1, 1]]) + np.array([[2, -61, 1]])
 ).tolist()
 
-rr = folium.Map([2.084090, -61.399162],tiles="stamentoner",zoom_start=5) #stamentoner #OpenStreetMap
+rr = folium.Map([2.084090, -61.399162],tiles="stamentoner",zoom_start=5,attr='Stamen Toner') #stamentoner #OpenStreetMap
 HeatMap(data).add_to(rr)
 radius = 20
 folium.CircleMarker(
