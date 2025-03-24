@@ -1,11 +1,5 @@
 # App-Registros-de-Mortes-Violentas-Brasil
-Registros de Dados IBGE sobre mortes violentas ocorrido no Brasil entre 2019 - 2020
-
-Olá Bem Vindo! Sou Ednei
-
-Desenvolvi uma app com Registros de Dados IBGE sobre mortes violentas ocorrido no Brasil entre 2019 - 2020
-
-Neste projeto estou usando as bibliotecas Streamlit - Dash Plotly - Folium ambas Python('Fenomenais')
+Esta aplicação Streamlit, desenvolvida com Dash Plotly e Folium, visualiza dados do IBGE sobre mortes violentas no Brasil entre 2019 e 2020.
 
 segue link de acesso App https://share.streamlit.io/ednei-code/app-registros-de-mortes-violentas-brasil/main/App_Dados_Mortes.py
 
